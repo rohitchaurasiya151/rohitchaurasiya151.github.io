@@ -4,9 +4,15 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "74dae6d3b3d2b19f18643b3ac62a573d",
-"splash/style.css": "86126e7e4072786170390b7ceee604b3",
-"index.html": "cca30db9bcee79377d5bb14abd34ea0e",
-"/": "cca30db9bcee79377d5bb14abd34ea0e",
+"splash/img/light-2x.png": "3dc8d1ba99475bcba7db66746a6da466",
+"splash/img/light-3x.png": "042d9fe83e71850ed1baa86df22e2e5f",
+"splash/img/dark-3x.png": "042d9fe83e71850ed1baa86df22e2e5f",
+"splash/img/dark-2x.png": "3dc8d1ba99475bcba7db66746a6da466",
+"splash/img/dark-1x.png": "1ad41524793c8f2226897cd0eae10e51",
+"splash/img/light-1x.png": "1ad41524793c8f2226897cd0eae10e51",
+"splash/style.css": "5c74776d35b9e85d790997a9f2349a2d",
+"index.html": "da05be75a5f53ab4769d2ac29a0493d0",
+"/": "da05be75a5f53ab4769d2ac29a0493d0",
 "16x16.png": "9c077de9d9eccdeb5f87b09bf8fddb85",
 "main.dart.js": "3756e1267634a8935d068ef5f1dd4205",
 "icons/192x192.png": "2066c443a5ca4e2aedded2a5ef5ee927",
