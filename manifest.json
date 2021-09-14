@@ -1,11 +1,11 @@
 {
-    "name": "ketshop",
-    "short_name": "ketshop",
+    "name": "Ketshop - Parents Choose + Kids Buy",
+    "short_name": "Ketshop",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#FFFFFF",
     "theme_color": "#FFFFFF",
-    "description": "ketshop app",
+    "description": "The only store where kids can shop for parent-approved products.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
