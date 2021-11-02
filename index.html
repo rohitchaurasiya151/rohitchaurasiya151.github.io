@@ -111,12 +111,13 @@
 </script>
 
 <script>
-    var serviceWorkerVersion = '353948251';
+    var serviceWorkerVersion = '2012633045';
     var scriptLoaded = false;
     function loadMainDartJs() {
 
       if (scriptLoaded) {
       location.reload(true);
+      console.log('reload new main.dart.');
         return;
       }
       scriptLoaded = true;
@@ -139,7 +140,6 @@
               serviceWorker.addEventListener('statechange', () => {
                 if (serviceWorker.state == 'activated') {
                   console.log('Installed new service worker.');
-
                   loadMainDartJs();
                 }
               });
