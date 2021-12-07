@@ -120,7 +120,7 @@
 </script>
 
 <script>
-    var serviceWorkerVersion = '1250997155';
+    var serviceWorkerVersion = '823700949';
     var scriptLoaded = false;
     function loadMainDartJs() {
 
@@ -179,6 +179,9 @@
           }
         }, 4000);
       });
+    }else {
+      // Service workers not supported. Just drop the <script> tag.
+      loadMainDartJs();
     }
     var delayInMilliseconds = 2000; //2 second
 
