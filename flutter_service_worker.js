@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "50e7b5b542e58348a207153a2af21fe0",
+  "version.json": "34efaf08597373eb0cdd44d77edfdd09",
 "splash/img/light-2x.png": "6c7e605cd4e0762839f28197ea0da30c",
 "splash/img/dark-4x.png": "547005fb8fe2fb5bd1c52bee09ef9e00",
 "splash/img/light-3x.png": "01f6c1b03309958822a9f64205dddcb4",
@@ -14,18 +14,19 @@ const RESOURCES = {
 "splash/img/dark-1x.png": "a2d453aa220116cedd4f5490794010b1",
 "splash/img/light-1x.png": "a2d453aa220116cedd4f5490794010b1",
 "splash/style.css": "5e8a38e61a9962411ce6a3e5a1e6c001",
-"index.html": "84ec5c54f864d8a45d3add88b62bfd8e",
-"/": "84ec5c54f864d8a45d3add88b62bfd8e",
+"index.html": "115ddbdf0b4020f919b66e1344845183",
+"/": "115ddbdf0b4020f919b66e1344845183",
 "16x16.png": "9c077de9d9eccdeb5f87b09bf8fddb85",
 "firebase-messaging-sw.js": "7bd7a3b802de4ef62783e4ed1b382be8",
-"main.dart.js": "e3465845372e61374d2689be2a7ee25b",
+"main.dart.js": "d1cb24a92940886c31431154bcf75233",
+"flutter.js": "0816e65a103ba8ba51b174eeeeb2cb67",
 "icons/Icon-192.png": "2066c443a5ca4e2aedded2a5ef5ee927",
 "icons/192x192.png": "2066c443a5ca4e2aedded2a5ef5ee927",
 "icons/512x512.png": "9ed95c379692be296b6baa188af8ac9c",
 "icons/Icon-512.png": "9ed95c379692be296b6baa188af8ac9c",
 "manifest.json": "b6539315d590e4d9c41598a90029d253",
-"assets/AssetManifest.json": "2ccc09715245efa601988575a430c725",
-"assets/NOTICES": "176c581c5386e0debfe363cacf4060b0",
+"assets/AssetManifest.json": "d5b57e5888db4b83582fa78d5f2300ce",
+"assets/NOTICES": "2801a40f42efc1370abaebb2e743f1cc",
 "assets/FontManifest.json": "94efacd57b9f0078ef3d4008dffa0f3f",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_AMS-Regular.ttf": "657a5353a553777e270827bd1630e467",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Script-Regular.ttf": "55d2dcd4778875a53ff09320a85a5296",
@@ -60,8 +61,7 @@ const RESOURCES = {
 "assets/packages/flutter_credit_card/icons/amex.png": "dad771da6513cec63005d2ef1271189f",
 "assets/packages/flutter_credit_card/icons/mastercard.png": "7e386dc6c169e7164bd6f88bffb733c7",
 "assets/packages/flutter_credit_card/font/halter.ttf": "4e081134892cd40793ffe67fdc3bed4e",
-"assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
-"assets/fonts/MaterialIcons-Regular.otf": "7e7a6cccddf6d7b20012a548461d5d81",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/assets/images/info.png": "48a873f3cbd981f6d5b016199faaad39",
 "assets/assets/images/message_menu.png": "582f363ed62f9281ed5cda32c7b54377",
 "assets/assets/images/bg_icon_give_amount.png": "b4d926bdb89d76a37bfd8450156282a5",
@@ -207,8 +207,7 @@ const RESOURCES = {
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
 "assets/NOTICES",
 "assets/AssetManifest.json",
