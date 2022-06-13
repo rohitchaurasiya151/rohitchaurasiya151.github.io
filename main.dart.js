@@ -109498,7 +109498,7 @@ break
 case 11:s=13
 return A.n(A.fo(),$async$t1)
 case 13:o=c
-A.aU("prefs.containsKey('isFreshUser')")
+A.aU("prefs.contains('isFreshUser')")
 m=o.a
 p=J.A(m)
 A.aU(p.aI(m,"isFreshUser"))
