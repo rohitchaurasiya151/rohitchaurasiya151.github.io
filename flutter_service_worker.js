@@ -14,12 +14,11 @@ const RESOURCES = {
 "splash/img/dark-1x.png": "a2d453aa220116cedd4f5490794010b1",
 "splash/img/light-1x.png": "a2d453aa220116cedd4f5490794010b1",
 "splash/style.css": "5e8a38e61a9962411ce6a3e5a1e6c001",
-"index.html": "c02fe74d8c0f34eddbd70dc6f063e7de",
-"/": "c02fe74d8c0f34eddbd70dc6f063e7de",
+"index.html": "86fb6557903fcde43808c5be7e13af6d",
+"/": "86fb6557903fcde43808c5be7e13af6d",
 "16x16.png": "9c077de9d9eccdeb5f87b09bf8fddb85",
 "firebase-messaging-sw.js": "7bd7a3b802de4ef62783e4ed1b382be8",
-"main.dart.js": "415114710cba7fd6646d4c6ab555ce13",
-"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
+"main.dart.js": "1c51168dbe5549728f58bd0e17603e21",
 "icons/Icon-192.png": "2066c443a5ca4e2aedded2a5ef5ee927",
 "icons/192x192.png": "2066c443a5ca4e2aedded2a5ef5ee927",
 "icons/512x512.png": "9ed95c379692be296b6baa188af8ac9c",
@@ -277,11 +276,7 @@ const RESOURCES = {
 "assets/assets/fonts/Raleway/Raleway-Black.ttf": "38b405eba92acbb5aef45d8152f2a736",
 "assets/assets/fonts/Raleway/Raleway-Thin.ttf": "07ac22f3d71e66a0799703116b533ac5",
 "assets/assets/fonts/Raleway/Raleway-Bold.ttf": "7802d8b27fcb19893ce6b38c0789268e",
-"assets/assets/assets/remove.png": "efc5e5aabe98c088f922001b53cebb78",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba"
+"assets/assets/assets/remove.png": "efc5e5aabe98c088f922001b53cebb78"
 };
 
 // The application shell files that are downloaded before a service worker can
