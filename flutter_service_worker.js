@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "900e0546cc047cd717d600b5a6d46925",
+  "version.json": "e80ce238cde905a960fdb0f9e0727ffd",
 "splash/img/light-2x.png": "6c7e605cd4e0762839f28197ea0da30c",
 "splash/img/dark-4x.png": "547005fb8fe2fb5bd1c52bee09ef9e00",
 "splash/img/light-3x.png": "01f6c1b03309958822a9f64205dddcb4",
@@ -14,18 +14,20 @@ const RESOURCES = {
 "splash/img/dark-1x.png": "a2d453aa220116cedd4f5490794010b1",
 "splash/img/light-1x.png": "a2d453aa220116cedd4f5490794010b1",
 "splash/style.css": "5e8a38e61a9962411ce6a3e5a1e6c001",
-"index.html": "196b64c6f924d6b41353a2494521960c",
-"/": "196b64c6f924d6b41353a2494521960c",
+"index.html": "e24dcf3b0ef80ab7f5533300615eb73c",
+"/": "e24dcf3b0ef80ab7f5533300615eb73c",
 "16x16.png": "9c077de9d9eccdeb5f87b09bf8fddb85",
 "firebase-messaging-sw.js": "7bd7a3b802de4ef62783e4ed1b382be8",
-"main.dart.js": "f108340f51a178709e771eb18361be9f",
+"main.dart.js": "533ca5d9ca2d403ee031f9ac62c01190",
+"flutter.js": "eb2682e33f25cd8f1fc59011497c35f8",
 "icons/Icon-192.png": "2066c443a5ca4e2aedded2a5ef5ee927",
 "icons/192x192.png": "2066c443a5ca4e2aedded2a5ef5ee927",
 "icons/512x512.png": "9ed95c379692be296b6baa188af8ac9c",
 "icons/Icon-512.png": "9ed95c379692be296b6baa188af8ac9c",
 "manifest.json": "b6539315d590e4d9c41598a90029d253",
-"assets/AssetManifest.json": "71532afe6b0c17f030eb4b270b5cc6c8",
+"assets/AssetManifest.json": "18d94ad9e6ec2d789a4fd746339085f2",
 "assets/NOTICES": "9433c8420764f4b2627b470206aafc60",
+"assets/pubspec.yaml": "df9c5a073a023b6c60c43e2598df2e66",
 "assets/FontManifest.json": "94efacd57b9f0078ef3d4008dffa0f3f",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_AMS-Regular.ttf": "657a5353a553777e270827bd1630e467",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Script-Regular.ttf": "55d2dcd4778875a53ff09320a85a5296",
@@ -82,6 +84,7 @@ const RESOURCES = {
 "assets/assets/images/instagram.png": "04d680b44d45d6cff23a346cdec00d61",
 "assets/assets/images/ketshop_tomato.png": "60733434a2e873e4e30e064087987c4b",
 "assets/assets/images/shipping.png": "f3bc2b9576109e3e2778f3a4c5e5499e",
+"assets/assets/images/ketshop_fav_icon.png": "eb5edf06eee80b6ee665b296c7bd8c7b",
 "assets/assets/images/icon_scross.png": "92a965e1a4eaaa73cff876c9cf16b355",
 "assets/assets/images/X.png": "b3baa5ee36a764ccc2a0d7ec2b93ead3",
 "assets/assets/images/icon_globe_web_arrow.png": "686c184c622c556b59418dcaa423b32b",
@@ -179,6 +182,7 @@ const RESOURCES = {
 "assets/assets/images/welcome/Kids_choose_what_to_buy.png": "18c63d7016529b6743fb6a306bfa0286",
 "assets/assets/images/buy_now_card_icon.png": "ddee2009e47d32c6cdf970c2607dad1a",
 "assets/assets/images/choose_product.png": "c304eb4ec7e63274f0a5715d234b8694",
+"assets/assets/images/ktshop_log.png": "9647f70f734882eee518b32510e5fdf0",
 "assets/assets/images/@.png": "ed41b4f4a38455b1178e12288da0b206",
 "assets/assets/images/birthday.png": "dd275db8520cf146d41ddd84012e2394",
 "assets/assets/images/apple.png": "417b39f01f9f91a78932438f3b0efbd5",
@@ -200,6 +204,7 @@ const RESOURCES = {
 "assets/assets/images/ketshop_welcome_message.png": "64fff8a37feb1fd41cfeac402446e93f",
 "assets/assets/images/ketshop_logo_white_text_splash.png": "d108122d492115b7756a92da8211f699",
 "assets/assets/images/bg_create_password.png": "62ae94a76ff8b9b6ee3554af96ecddcc",
+"assets/assets/images/icone_add_black@3x.png": "bc7005a4221b3f0db799b859002a9a0f",
 "assets/assets/images/bottom_nav_shop.png": "579ec7a6a5a6f9efd661662d46415110",
 "assets/assets/images/bottom_nav_home.png": "e96392218613636bafdc49e0e477e9d1",
 "assets/assets/images/eye_hide.png": "f896524b8b0b7ff3f00234135cbff449",
@@ -276,7 +281,10 @@ const RESOURCES = {
 "assets/assets/fonts/Raleway/Raleway-Black.ttf": "38b405eba92acbb5aef45d8152f2a736",
 "assets/assets/fonts/Raleway/Raleway-Thin.ttf": "07ac22f3d71e66a0799703116b533ac5",
 "assets/assets/fonts/Raleway/Raleway-Bold.ttf": "7802d8b27fcb19893ce6b38c0789268e",
-"assets/assets/assets/remove.png": "efc5e5aabe98c088f922001b53cebb78"
+"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
+"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
+"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba"
 };
 
 // The application shell files that are downloaded before a service worker can
